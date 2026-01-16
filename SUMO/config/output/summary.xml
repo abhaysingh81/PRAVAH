@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-01-16T16:32:42.453445+05:30 by Eclipse SUMO GUI 1.25.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="config/../network.net.xml"/>
+        <route-files value="config/../routes.rou.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="config/output/summary.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+</sumoConfiguration>
+-->
+
+<summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/summary_file.xsd">
+    <step time="0.00" loaded="2" inserted="1" running="1" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.00" meanTravelTime="-1.00" meanSpeed="0.00" meanSpeedRelative="0.00" discarded="0" duration="0"/>
+    <step time="1.00" loaded="203" inserted="2" running="2" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.00" meanTravelTime="-1.00" meanSpeed="1.18" meanSpeedRelative="0.04" discarded="0" duration="11"/>
+    <step time="2.00" loaded="203" inserted="3" running="3" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.00" meanTravelTime="-1.00" meanSpeed="2.06" meanSpeedRelative="0.10" discarded="0" duration="0"/>
+    <step time="3.00" loaded="203" inserted="3" running="3" waiting="1" ended="0" arrived="0" collisions="0" teleports="0" halting="0" stopped="0" meanWaitingTime="0.00" meanTravelTime="-1.00" meanSpeed="4.19" meanSpeedRelative="0.20" discarded="0" duration="0"/>
+    <step time="4.00" loaded="203" inserted="5" running="5" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="2" stopped="0" meanWaitingTime="0.20" meanTravelTime="-1.00" meanSpeed="3.93" meanSpeedRelative="0.18" discarded="0" duration="1"/>
+    <step time="5.00" loaded="203" inserted="6" running="6" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.17" meanTravelTime="-1.00" meanSpeed="4.80" meanSpeedRelative="0.24" discarded="0" duration="1"/>
+    <step time="6.00" loaded="203" inserted="7" running="7" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.14" meanTravelTime="-1.00" meanSpeed="5.82" meanSpeedRelative="0.30" discarded="0" duration="1"/>
+    <step time="7.00" loaded="203" inserted="8" running="8" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.12" meanTravelTime="-1.00" meanSpeed="6.53" meanSpeedRelative="0.34" discarded="0" duration="1"/>
+    <step time="8.00" loaded="203" inserted="9" running="9" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.11" meanTravelTime="-1.00" meanSpeed="7.53" meanSpeedRelative="0.40" discarded="0" duration="1"/>
+    <step time="9.00" loaded="203" inserted="10" running="10" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.10" meanTravelTime="-1.00" meanSpeed="8.45" meanSpeedRelative="0.45" discarded="0" duration="0"/>
+    <step time="10.00" loaded="203" inserted="11" running="11" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.09" meanTravelTime="-1.00" meanSpeed="9.23" meanSpeedRelative="0.50" discarded="0" duration="0"/>
+    <step time="11.00" loaded="203" inserted="12" running="12" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.08" meanTravelTime="-1.00" meanSpeed="9.83" meanSpeedRelative="0.53" discarded="0" duration="1"/>
+    <step time="12.00" loaded="203" inserted="13" running="13" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.08" meanTravelTime="-1.00" meanSpeed="10.10" meanSpeedRelative="0.55" discarded="0" duration="1"/>
+    <step time="13.00" loaded="203" inserted="14" running="14" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.07" meanTravelTime="-1.00" meanSpeed="10.28" meanSpeedRelative="0.56" discarded="0" duration="1"/>
+    <step time="14.00" loaded="203" inserted="15" running="15" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.07" meanTravelTime="-1.00" meanSpeed="10.91" meanSpeedRelative="0.59" discarded="0" duration="1"/>
+    <step time="15.00" loaded="203" inserted="16" running="16" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.06" meanTravelTime="-1.00" meanSpeed="11.20" meanSpeedRelative="0.61" discarded="0" duration="1"/>
+    <step time="16.00" loaded="203" inserted="17" running="17" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.06" meanTravelTime="-1.00" meanSpeed="11.39" meanSpeedRelative="0.62" discarded="0" duration="1"/>
+    <step time="17.00" loaded="203" inserted="18" running="18" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.06" meanTravelTime="-1.00" meanSpeed="11.53" meanSpeedRelative="0.62" discarded="0" duration="1"/>
+    <step time="18.00" loaded="203" inserted="19" running="19" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.05" meanTravelTime="-1.00" meanSpeed="11.24" meanSpeedRelative="0.64" discarded="0" duration="1"/>
+    <step time="19.00" loaded="203" inserted="20" running="20" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.05" meanTravelTime="-1.00" meanSpeed="11.37" meanSpeedRelative="0.65" discarded="0" duration="0"/>
+    <step time="20.00" loaded="203" inserted="21" running="21" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.05" meanTravelTime="-1.00" meanSpeed="11.28" meanSpeedRelative="0.65" discarded="0" duration="1"/>
+    <step time="21.00" loaded="203" inserted="22" running="22" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.05" meanTravelTime="-1.00" meanSpeed="11.36" meanSpeedRelative="0.66" discarded="0" duration="1"/>
+    <step time="22.00" loaded="203" inserted="23" running="23" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.04" meanTravelTime="-1.00" meanSpeed="11.24" meanSpeedRelative="0.65" discarded="0" duration="1"/>
+    <step time="23.00" loaded="203" inserted="24" running="24" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.04" meanTravelTime="-1.00" meanSpeed="11.63" meanSpeedRelative="0.67" discarded="0" duration="1"/>
+    <step time="24.00" loaded="203" inserted="25" running="25" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.04" meanTravelTime="-1.00" meanSpeed="11.55" meanSpeedRelative="0.67" discarded="0" duration="1"/>
+    <step time="25.00" loaded="203" inserted="26" running="26" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.04" meanTravelTime="-1.00" meanSpeed="11.32" meanSpeedRelative="0.65" discarded="0" duration="1"/>
+    <step time="26.00" loaded="203" inserted="27" running="27" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.04" meanTravelTime="-1.00" meanSpeed="11.34" meanSpeedRelative="0.64" discarded="0" duration="1"/>
+    <step time="27.00" loaded="203" inserted="28" running="28" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.04" meanTravelTime="-1.00" meanSpeed="11.70" meanSpeedRelative="0.66" discarded="0" duration="1"/>
+    <step time="28.00" loaded="203" inserted="29" running="29" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="11.43" meanSpeedRelative="0.65" discarded="0" duration="1"/>
+    <step time="29.00" loaded="203" inserted="30" running="30" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="11.15" meanSpeedRelative="0.65" discarded="0" duration="1"/>
+    <step time="30.00" loaded="203" inserted="31" running="31" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="11.26" meanSpeedRelative="0.65" discarded="0" duration="1"/>
+    <step time="31.00" loaded="203" inserted="32" running="32" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="11.39" meanSpeedRelative="0.65" discarded="0" duration="1"/>
+    <step time="32.00" loaded="203" inserted="33" running="33" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="11.53" meanSpeedRelative="0.66" discarded="0" duration="1"/>
+    <step time="33.00" loaded="203" inserted="34" running="34" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="11.21" meanSpeedRelative="0.63" discarded="0" duration="1"/>
+    <step time="34.00" loaded="203" inserted="35" running="35" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="11.17" meanSpeedRelative="0.64" discarded="0" duration="2"/>
+    <step time="35.00" loaded="203" inserted="36" running="36" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="11.39" meanSpeedRelative="0.64" discarded="0" duration="2"/>
+    <step time="36.00" loaded="203" inserted="37" running="37" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="11.78" meanSpeedRelative="0.66" discarded="0" duration="2"/>
+    <step time="37.00" loaded="203" inserted="38" running="38" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="12.20" meanSpeedRelative="0.68" discarded="0" duration="1"/>
+    <step time="38.00" loaded="203" inserted="39" running="39" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="12.58" meanSpeedRelative="0.69" discarded="0" duration="1"/>
+    <step time="39.00" loaded="203" inserted="40" running="40" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.03" meanTravelTime="-1.00" meanSpeed="12.93" meanSpeedRelative="0.71" discarded="0" duration="1"/>
+    <step time="40.00" loaded="203" inserted="41" running="41" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="13.21" meanSpeedRelative="0.71" discarded="0" duration="1"/>
+    <step time="41.00" loaded="203" inserted="42" running="42" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="13.63" meanSpeedRelative="0.73" discarded="0" duration="1"/>
+    <step time="42.00" loaded="203" inserted="43" running="43" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.13" meanSpeedRelative="0.75" discarded="0" duration="2"/>
+    <step time="43.00" loaded="203" inserted="44" running="44" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.56" meanSpeedRelative="0.76" discarded="0" duration="1"/>
+    <step time="44.00" loaded="203" inserted="45" running="45" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.74" meanSpeedRelative="0.77" discarded="0" duration="1"/>
+    <step time="45.00" loaded="203" inserted="46" running="46" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="15.04" meanSpeedRelative="0.78" discarded="0" duration="1"/>
+    <step time="46.00" loaded="203" inserted="47" running="47" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.88" meanSpeedRelative="0.77" discarded="0" duration="2"/>
+    <step time="47.00" loaded="203" inserted="48" running="48" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.80" meanSpeedRelative="0.76" discarded="0" duration="1"/>
+    <step time="48.00" loaded="203" inserted="49" running="49" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.71" meanSpeedRelative="0.75" discarded="0" duration="1"/>
+    <step time="49.00" loaded="203" inserted="50" running="50" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.58" meanSpeedRelative="0.75" discarded="0" duration="1"/>
+    <step time="50.00" loaded="203" inserted="51" running="51" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.59" meanSpeedRelative="0.76" discarded="0" duration="2"/>
+    <step time="51.00" loaded="203" inserted="52" running="52" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.65" meanSpeedRelative="0.77" discarded="0" duration="2"/>
+    <step time="52.00" loaded="203" inserted="53" running="53" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.37" meanSpeedRelative="0.77" discarded="0" duration="2"/>
+    <step time="53.00" loaded="203" inserted="54" running="54" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.16" meanSpeedRelative="0.76" discarded="0" duration="2"/>
+    <step time="54.00" loaded="203" inserted="55" running="55" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.19" meanSpeedRelative="0.76" discarded="0" duration="2"/>
+    <step time="55.00" loaded="203" inserted="56" running="56" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.25" meanSpeedRelative="0.76" discarded="0" duration="1"/>
+    <step time="56.00" loaded="203" inserted="57" running="57" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.24" meanSpeedRelative="0.76" discarded="0" duration="1"/>
+    <step time="57.00" loaded="203" inserted="58" running="58" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="1" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="14.05" meanSpeedRelative="0.75" discarded="0" duration="1"/>
+    <step time="58.00" loaded="203" inserted="59" running="59" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="2" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="13.96" meanSpeedRelative="0.75" discarded="0" duration="2"/>
+    <step time="59.00" loaded="203" inserted="60" running="60" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="2" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="13.89" meanSpeedRelative="0.75" discarded="0" duration="2"/>
+    <step time="60.00" loaded="203" inserted="61" running="61" waiting="0" ended="0" arrived="0" collisions="0" teleports="0" halting="3" stopped="0" meanWaitingTime="0.02" meanTravelTime="-1.00" meanSpeed="13.78

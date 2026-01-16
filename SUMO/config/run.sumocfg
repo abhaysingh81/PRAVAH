@@ -1,0 +1,14 @@
+<configuration>
+    <input>
+        <net-file value="../network.net.xml"/>
+        <route-files value="../routes.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>  <!-- 1 hour simulation -->
+        <step-length value="1"/>  <!-- 1 second per step -->
+    </time>
+    <output>
+        <summary value="output/summary.xml"/>
+    </output>
+</configuration>

@@ -1,0 +1,31 @@
+<additional>
+
+    <tlLogic id="838633406" type="actuated" programID="custom_1" offset="0">
+        <phase duration="30"  state="gggggg"/>
+        <phase duration="30"  state="gggrrr"/>
+        <phase duration="30"  state="gggrrr"/>
+        <phase duration="30"  state="gggrrr"/>
+    </tlLogic>
+    
+    <tlLogic id="838495888" type="actuated" programID="custom_2" offset="0">
+        <phase duration="30"  state="rrgg"/>
+        <phase duration="30"  state="gggg"/>
+        <phase duration="30"  state="rrgg"/>
+        <phase duration="30"  state="rrgg"/>
+    </tlLogic>
+
+    <tlLogic id="838633634" type="actuated" programID="custom_3" offset="0">
+        <phase duration="30"  state="ggrr"/>
+        <phase duration="30"  state="ggrr"/>
+        <phase duration="30"  state="ggrr"/>
+        <phase duration="30"  state="gggg"/>
+    </tlLogic>
+
+    <tlLogic id="838495943" type="actuated" programID="custom_4" offset="0">
+        <phase duration="30"  state="rrgg"/>
+        <phase duration="30"  state="rrgg"/>
+        <phase duration="30"  state="gggg"/>
+        <phase duration="30"  state="rrgg"/>
+    </tlLogic>
+
+</additional>

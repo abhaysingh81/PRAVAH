@@ -1,0 +1,78 @@
+<additional>
+
+    <inductionLoop id="det_838633406_west" lane="778549698#6_0" pos="10" file="detector_output.xml"/>
+
+    <inductionLoop id="det_838495888_north" lane="1459192051_0" pos="10" file="detector_output.xml"/>
+    
+    <inductionLoop id="det_838633634_south" lane="70237520#2_0" pos="10" file="detector_output.xml"/>
+    
+    <inductionLoop id="det_838495943_east" lane="370543240_0" pos="10" file="detector_output.xml"/>
+
+
+    <tlLogic id="838633406" type="actuated" programID="custom_1" offset="0">
+
+        <param key="detector-gap" value="2.0"/>
+        <param key="max-gap" value="3.0"/>
+        <param key="passing-time" value="2.0"/>
+        <param key="show-detectors" value="true"/>
+
+        <phase duration="10"  minDur="5"  maxDur="30"  state="gggggg">
+            <param key="detector" value="det_838633406_west"/>
+        </phase>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="gggrrr"/>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="gggrrr"/>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="gggrrr"/>
+    </tlLogic>
+
+
+
+    <tlLogic id="838495888" type="actuated" programID="custom_2" offset="0">
+
+        <param key="detector-gap" value="2.0"/>
+        <param key="max-gap" value="3.0"/>
+        <param key="passing-time" value="2.0"/>
+        <param key="show-detectors" value="true"/>
+
+        <phase duration="10"  minDur="5"  maxDur="30"  state="rrgg"/>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="gggg">
+            <param key="detector" value="det_838495888_north"/>
+        </phase>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="rrgg"/>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="rrgg"/>
+    </tlLogic>
+
+
+
+    <tlLogic id="838633634" type="actuated" programID="custom_3" offset="0">
+
+        <param key="detector-gap" value="2.0"/>
+        <param key="max-gap" value="3.0"/>
+        <param key="passing-time" value="2.0"/>
+        <param key="show-detectors" value="true"/>
+
+        <phase duration="10"  minDur="5"  maxDur="30"  state="ggrr"/>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="ggrr"/>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="ggrr"/>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="gggg">
+            <param key="detector" value="det_838633634_south"/>
+        </phase>
+    </tlLogic>
+
+
+
+    <tlLogic id="838495943" type="actuated" programID="custom_4" offset="0">
+
+        <param key="detector-gap" value="2.0"/>
+        <param key="max-gap" value="3.0"/>
+        <param key="passing-time" value="2.0"/>
+        <param key="show-detectors" value="true"/>
+
+        <phase duration="10"  minDur="5"  maxDur="30"  state="rrgg"/>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="rrgg"/>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="gggg">
+            <param key="detector" value="det_838495943_east"/>
+        </phase>
+        <phase duration="10"  minDur="5"  maxDur="30"  state="rrgg"/>
+    </tlLogic>
+
+</additional>
